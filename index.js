@@ -26,7 +26,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: ["zerodha-frontend-nu.vercel.app", "zerodha-dashboard-ten.vercel.app"],
+    origin: ["https://zerodha-frontend-nu.vercel.app", "https://zerodha-dashboard-ten.vercel.app"],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
